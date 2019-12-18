@@ -1,0 +1,156 @@
+
+mat-card-subtitle{
+font-size:12px !important;
+}
+
+.go-to-profil{
+background:none;
+height:80px;
+padding-left:5px;
+box-shadow:none;
+border-bottom:1px solid silver;
+}
+
+.cat-user{
+font-size:11px !important;
+margin-left:-25px;
+}
+
+.cat-fiend{
+font-size:11px !important;
+}
+
+.hover01{
+margin-top:-5px;
+z-index:1;
+}
+
+.hover01 figure div {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover div {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+
+.storiesContain{
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.stories-row{
+  width:230px;
+}
+
+
+.btn-accordion{
+border:0px;
+padding-left:30px;
+border-radius:3px !important;
+background:none;
+}
+
+.head-row{
+padding:0px;
+background:none;
+height:50px;
+}
+
+.addlist-img{
+position:absolute;
+margin-top:10px;
+z-index:1;
+left:15px;
+}
+
+.username{
+font-size:15px;
+}
+
+
+.avatar{
+background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+background-size: cover;
+width:45px;
+height:45px;
+}
+
+.storybull{
+background-image: url('../../assets/imgs/portsaid.jpg');
+background-size: cover;
+width:46px;
+height:46px;
+}
+
+.padding-0{
+padding:0px;
+}
+
+.add-friend{
+position:absolute;
+right:-15px;
+height:40px !important;
+width:40px !important;
+padding:0px !important;
+border-radius:50%;
+color:#2980b9;
+border:0px;
+background:none;
+outline:none !important;
+}
+
+.suggestion-title{
+color:#283149;
+padding-top:5px;
+}
+
+.card-head{
+width:100%;
+}
+
+.card{
+background:none;
+}
+
+.border-0{
+border:0px;
+}
+
+.stories-font{
+height-line:10px;
+color:283149;
+font-size:14px;
+padding-left:15px;
+margin-top:10px;
+padding-bottom:0px;
+margin-bottom:0px;
+}
+
+
+.story-btn{
+border:0px;
+background:none;
+outline:none;
+padding:3px;
+}
+
+
+.create-story{
+position:absolute;
+right:-9px;
+bottom:-14px;
+color:#283149;
+font-size:15px;
+}
+
+.gtp-btn{
+background:none;
+border:0px;
+outline:none !important;
+padding:0px !important;
+}

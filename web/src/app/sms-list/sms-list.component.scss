@@ -1,0 +1,39 @@
+.contain-list{
+height:100%;
+padding-bottom:4px;
+padding-top:4px;
+padding-left:4px;
+padding-right:4px;
+overflow-x:hidden;
+overflow-y:auto;
+}
+
+
+.received{
+border-radius:10px;
+height:auto;
+min-height:27px;
+padding:3px 10px 3px 10px;
+color:black;
+font-size:13px;
+background:#eeeeee;
+width:auto !important;
+min-width:30px;
+border-bottom-left-radius:0px !important;
+height-line:normal;
+}
+
+.sent{
+border-radius:10px;
+height:auto;
+min-height:27px;
+padding:3px 10px 3px 10px;
+color:black;
+font-size:13px;
+background:#3f5468;
+width:auto !important;
+min-width:30px;
+border-bottom-right-radius:0px !important;
+color:white;
+height-line:normal;
+}

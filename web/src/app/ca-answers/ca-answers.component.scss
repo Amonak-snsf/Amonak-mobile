@@ -1,0 +1,40 @@
+.avatar{
+background-image: url('../../assets/imgs/portsaid.jpg');
+background-size: cover;
+width:40px;
+height:40px;
+}
+
+
+.username{
+font-size:14px !important;
+}
+
+.user-comment{
+font-size:13px !important;
+color:#2f3640;
+left:65px;
+position:absolute;
+width:300px;
+max-width:300px;
+}
+
+
+.new{
+border:0px;
+outline:none !important;
+height:40px;
+width:40px;
+background:#33425b;
+border-radius:50%;
+position:fixed;
+right:25%;
+bottom:120px;
+z-index:1;
+}
+
+
+.empty-list{
+color:gray;
+font-size:15px;
+}

@@ -1,0 +1,41 @@
+.contain-all{
+margin-bottom:100px;
+}
+
+.title-row{
+height:120px;
+}
+
+.title{
+font-family: 'Muli', sans-serif;
+}
+
+.field-name{
+color:gray;
+font-family: 'Muli', sans-serif;
+font-size:12px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit-btn-div{
+position:fixed;
+top:88%;
+right:6%;
+}
+
+.submit-btn{
+border:0.7px solid #27ae60;
+color:#27ae60;
+outline:none;
+}
+
+.submit-btn:hover{
+background:#27ae60;
+color:white;
+border:0px;
+}

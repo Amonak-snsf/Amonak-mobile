@@ -1,0 +1,68 @@
+.login-page{
+  background-color: #dbedf3;
+  height: 100%;
+  width: 100%;
+}
+
+.nvbr{
+  background-color: #283149;
+  padding: 9px 0px 9px 0px ;
+}
+
+.nvbr li a{
+  color: white;
+  font-size: 14px;
+}
+
+
+#signalPoint{
+  font-size: 5px;
+  text-align: center;
+  color: #dbedf3;
+}
+
+mat-card{
+  border-radius: 0px;
+}
+
+
+.login-input{
+  width: 100%;
+}
+.login-btn{
+  border: none;
+  width: 100%;
+  background-color: #283149;
+  color: #dbedf3;
+}
+
+.login-btn:hover{
+  background-color: #404b69 ;
+  color:  #dbedf3;
+}
+.forgot-pass{
+  color:  #283149;
+}
+
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.reset-title{
+  width: 100%;
+  font-size :150% ;
+  color:  #283149;
+}
+
+
+.cancel-btn{
+  border: 2px solid #fc3c3c;
+  width: 100%;
+  background-color: rgba(252, 60, 60, 0.06);
+  color: #fc3c3c
+}
+
+.cancel-btn:hover{
+  background-color: rgba(252, 60, 60, 0.11);
+}

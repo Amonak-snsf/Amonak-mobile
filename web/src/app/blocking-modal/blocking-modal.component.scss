@@ -1,0 +1,14 @@
+.mod-img-okay{
+position:absolute;
+visibility:hidden;
+}
+
+.action-description{
+color:gray;
+font-family: 'Muli', sans-serif;
+font-size:12px;
+}
+
+.blocking-status:hover .action-description{
+color:#f33535;
+}

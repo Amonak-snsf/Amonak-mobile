@@ -1,0 +1,56 @@
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.option-btn{
+background:none;
+border:0px;
+outline:none;
+background:none;
+padding:0px;
+}
+
+
+.dropdown-menu{
+border:1px solid silver;
+margin-left:-120px;
+width:190px;
+}
+
+.option-icon{
+font-size:20px;
+margin-left:60%;
+color: grey;
+}
+
+
+.dropdown-menu::before {
+    border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 25px;
+    position: absolute;
+    top: -8px;
+}
+
+
+  .dropdown-menu::after {
+    border-bottom: 8px solid #FFFFFF;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 25px;
+    position: absolute;
+    top: -7px;
+  }
+
+
+
+
+mat-card-subtitle{
+font-size:12px !important;
+}

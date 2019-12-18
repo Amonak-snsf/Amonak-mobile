@@ -1,0 +1,41 @@
+<div class="container-fluid chat-box d-flex justify-content-start">
+  <div class="row">
+    <div class="col-12 col-md-12 card-container">
+      <mat-card>
+        <mat-card-header class="chat-head">
+          <div mat-card-avatar class=""><img src="../../assets/imgs/portsaid.jpg" width="40px" height="40px" class="chat-avatar"></div>
+          <mat-card-title>Simba</mat-card-title>
+          <mat-card-subtitle>IT & technology</mat-card-subtitle>
+          <div class="d-flex justify-content-end align-items-center head-btn">
+            <font class="head-icon">
+              <button class="ico-btn"><img src="../../assets/imgs/icons/attachment.png" width="20px" height="20px"></button>
+            </font>
+            <font class="head-icon">
+              <button class="ico-btn"><img src="../../assets/imgs/icons/option.png" width="20px" height="20px"></button>
+            </font>
+            <font class="head-icon">
+              <button class="ico-btn"><img src="../../assets/imgs/icons/close.png" width="20px" height="20px"></button>
+            </font>
+          </div>
+        </mat-card-header>
+        <mat-card-content class="chat-affich">
+          <app-sms-list></app-sms-list>
+        </mat-card-content>
+        <mat-card-actions class="chat-action">
+          <form>
+            <textarea class="chat-input">
+            </textarea>
+          </form>
+          <div class="row d-flex justify-content-start chat-foot">
+            <div class="col-md-6 d-flex justify-content-start align-items-center">
+              <button class="ico-btn"><img src="../../assets/imgs/icons/add-image.png" width="20px" height="20px"></button>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end align-items-center">
+              <button class="ico-btn"><img src="../../assets/imgs/icons/send.png" width="20px" height="20px"></button>
+            </div>
+          </div>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

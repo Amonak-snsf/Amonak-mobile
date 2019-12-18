@@ -1,0 +1,118 @@
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.option-btn{
+background:none;
+border:0px;
+outline:none;
+background:none;
+padding:0px;
+}
+
+
+.dropdown-menu{
+border:1px solid silver;
+margin-left:-120px;
+width:190px;
+}
+
+.option-icon{
+font-size:20px;
+right:0px;
+color: grey;
+position:absolute;
+}
+
+
+.dropdown-menu::before {
+    border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 25px;
+    position: absolute;
+    top: -8px;
+}
+
+  .dropdown-menu::after {
+    border-bottom: 8px solid #FFFFFF;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 25px;
+    position: absolute;
+    top: -7px;
+  }
+
+
+mat-card-subtitle{
+font-size:12px !important;
+}
+
+
+.icon-touch{
+margin-top:-10px;
+}
+
+
+.comment-avatar-image{
+background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+background-size: cover;
+height:35px !important;
+width:35px !important;
+}
+
+.commentator{
+font-size:14px;
+}
+
+
+.comment-text{
+font-size:14px;
+background-color:whitesmoke;
+border-radius:5px;
+width:auto;
+height:auto;
+max-width:100%;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+}
+
+
+.padding-0{
+padding:0px !important;
+}
+
+
+.add-comment{
+outline:none !important;
+border-top:0px;
+border-right:0px;
+border-left:0px;
+font-size:14px;
+width:100%;
+}
+
+
+.comment-like{
+width:auto;
+height:auto;
+padding:0px !important;
+outline:none !important;
+background:none !important;;
+border:0px !important;
+}
+
+.comment-like-img{
+margin-left:3px;
+}
+
+mat-card-title{
+font-size:15px !important;
+}
